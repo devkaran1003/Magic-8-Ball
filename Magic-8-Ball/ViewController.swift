@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
        //Using dot notation
       //Who.What = Value
-        imageView.image = #imageLiteral(resourceName: "ball3")
+        imageView.image = ballArray[Int.random (in: 0...4)]
         
     }
 }
